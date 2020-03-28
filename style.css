@@ -1,0 +1,19 @@
+body {
+    background-color: purple;
+}
+
+.container {
+    display: block;
+    font-family: monospace;
+    margin: 100px auto;
+    max-width: 720px;
+}
+
+h1 {
+
+}
+
+.content {
+    padding-bottom: 50px;
+}
+
