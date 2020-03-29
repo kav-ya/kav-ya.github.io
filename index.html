@@ -13,23 +13,190 @@
     <div>
       <h1> Talks </h1>
       <div class="content">
-      <ul>
-	<li><a href=""></a></li>
-      </ul>
+	<h3> 2019 </h3>
+	<ul>
+	  <li> <h3> Let's Talk Locks! </h3>
+	    <p class="talkstract">
+	      Locks have a bad rap for &quotbeing slow&quot and yet, they're used
+	      extensively in applications and under-the-hood. So, what gives? <br>
+	      This talk, given at QCon NYC and Istanbul Tech Talks, explored
+	      when and why locks affect performance, delved into Go's lock implementation as a case study, and
+	      discussed strategies to use when locks are actually a problem.
+	    </p>
+	    <p>
+	      <a href="https://qconnewyork.com/ny2019/presentation/lets-talk-locks">abstract</a>
+	      |
+	      <a href="https://speakerdeck.com/kavya719/lets-talk-locks">slides</a>
+	      |
+	      <a href="https://www.infoq.com/presentations/go-locks/">talk</a>
+	    </p>
+	  </li>
+	</ul>	
+	<h3> 2018 </h3>
+	<ul>
+	  <li> <h3> The Scheduler Saga </h3>
+	    <p class="talkstract">
+	      The Go scheduler is, simply put, the orchestrator of the language runtime.
+	      It schedules and unschedules goroutines, and also coordinates network polling and memory management. <br>
+	      This GopherCon keynote explored the inner workings of the scheduler machinery.
+	    </p>
+	    <p>
+	      <a href="">abstract</a>
+	      |
+	      <a href="https://speakerdeck.com/kavya719/the-scheduler-saga">slides</a>
+	      |
+	      <a href="https://www.youtube.com/watch?v=YHRO5WQGh0k">talk</a>
+	    </p>
+	  </li>
+	  <li> <h3> Applied Performance Theory </h3>
+	    <p class="talkstract">
+	      How does your system perform under load? What are the bottlenecks,
+	      and how does it fail at its limits? How do you stay ahead as your system evolves and its workload grows?
+	      Performance theory offers a rigorous and practical (-- yes!) approach to performance tuning and capacity planning. <br>
+	      This talk, given at QCon London, Strange Loop, and Velocity
+	      NYC, dived into elegant results like Little's Law and the
+	      Universal Scalability Law, and explored how we might apply them to our systems.
+	    </p>
+	    <p>
+	      <a href="https://qconlondon.com/london2018/london2018/presentation/applied-performance-theory.html">abstract</a>
+	      |
+	      <a href="https://speakerdeck.com/kavya719/applied-performance-theory">slides</a>
+	      |
+	      <a href="https://www.infoq.com/presentations/little-usl-scalability-performance/">talk</a>
+	    </p>
+	  </li>
+	</ul>
+	
+	<h3> 2017 </h3>
+	<ul>
+	  <li> <h3> Understanding Channels </h3>
+	    <p class="talkstract">
+	    Go's channels provide a simple mechanism for goroutines to communicate,
+	    and a powerful construct to build sophisticated concurrency
+	    patterns. <br>
+	    This GopherCon keynote delved into the inner workings of
+	    channels and channel operations, including how they're supported by
+	    the runtime scheduler.
+	    </p>
+	    <p>
+	      <a href="">abstract</a>
+	      |
+	      <a href="https://speakerdeck.com/kavya719/understanding-channels">slides</a>
+	      |
+	      <a href="https://www.youtube.com/watch?v=KBZlN0izeiY">talk</a>
+	    </p>
+	  </li>
+	  <li> <h3> T-3, 2, 1: Future-proofing Production Systems </h3>
+	    <p class="talkstract">
+	      Velocity London keynote.
+	    </p>
+	    <p>
+	      <a href="https://conferences.oreilly.com/velocity/vl-eu-2017/public/schedule/detail/63251">abstract</a>
+	      |
+	      <a href="https://speakerdeck.com/kavya719/future-proofing-production-systems">slides</a>
+	      |
+	      <a href="https://www.youtube.com/watch?v=28_x6BQVd6I">talk</a>
+	    </p>
+	  </li>
+	  <li> <h3> Keeping Time in Real Systems </h3>
+	    <p class="talkstract">
+	      Given at Strange Loop.
+	    </p>
+	    <p>
+	      <a href="https://www.thestrangeloop.com/2017/keeping-time-in-real-systems.html">abstract</a>
+	      |
+	      <a href="https://speakerdeck.com/kavya719/keeping-time-in-real-systems">slides</a>
+	      |
+	      <a href="https://www.youtube.com/watch?v=BRvj8PykSc4">talk</a>
+	    </p>
+	  </li>
+	  <li> <h3> The Memory Chronicles: A Tale of Two Pythons </h3>
+	    <p class="talkstract">
+	    MicroPython is the leanest, meanest full Python
+	    implementation. Designed for microcontrollers, this variant of
+	    Python runs in less than 300KB of memory, _and_ retains support for all your favorite Python features. <br>
+	    So what does it take to make the smallest Python? Put differently, why does CPython have a large memory footprint? <br>
+	    This talk, given at PyCon, explored the internals of MicroPython and
+	    contrasted it with CPython, focusing on the aspects that relate to
+	    memory use.
+	    </p>
+	    <p>
+	      <a href="">abstract</a>
+	      |
+	      <a href="https://speakerdeck.com/kavya719/the-memory-chronicles">slides</a>
+	      |
+	      <a href="https://www.youtube.com/watch?v=d7qEzpnkWaY">talk</a>
+	    </p>
+	  </li>
+	  <li> <h3> The Ordering of Events in Systems </h3>
+	    <p class="talkstract">
+	      Given at QCon NYC.
+	    </p>
+	    <p>
+	      <a href="https://qconnewyork.com/ny2017/ny2017/presentation/what-came-first-ordering-events-systems.html">abstract</a>
+	      |
+	      <a href="https://speakerdeck.com/kavya719/what-came-first-the-ordering-of-events-in-systems">slides</a>
+	      |
+	      <a href="https://www.infoq.com/news/2017/07/ordering-events-systems/">talk</a>
+	    </p>
+	  </li>	  
+	</ul>
+
+	<h3> 2016 </h3>
+	<ul>
+	  <li> <h3> Looking Inside a Race Detector </h3>
+	    <p class="talkstract">
+	      Given at Strange Loop, QCon SF, Systems We Love SF.
+	    </p>
+	    <p>
+	      <a href="https://www.thestrangeloop.com/2016/go-test--race-under-the-hood-an-inside-scoop-on-a-tool-that-dynamically-detects-racy-memory-accesses.html">abstract</a>
+	      |
+	      <a href="https://speakerdeck.com/kavya719/go-run-race-under-the-hood">slides</a>
+	      |
+	      <a href="https://www.youtube.com/watch?v=5erqWdlhQLA">talk</a>
+	    </p>
+	  </li>
+	  <li> <h3> A Tale of Concurrency through Creativity in Python: A Deep
+	      Dive into Gevent </h3>
+	    <p class="talkstract">
+	      gevent is an open source Python library for asynchronous I/O. It
+	      provides a powerful construct to build concurrent applications;
+	      think threads, except lightweight and cooperatively scheduled. <br>
+	      This talk, given at PyCon, delved into how gevent is architected
+	      from its building blocks -- sophisticated coroutines, an event
+	      loop, and a dash of creativity to neatly integrate them.
+	    </p>
+	    <p>
+	      <a href="">abstract</a>
+	      |
+	      <a href="https://speakerdeck.com/kavya719/a-tale-of-concurrency-through-creativity-in-python-a-deep-dive-into-how-gevent-works">slides</a>
+	      |
+	      <a href="https://www.youtube.com/watch?v=GunMToxbE0E">talk</a>
+	    </p>
+	  </li>
+	</ul>
       </div>
     </div>
     <div>
       <h1> Articles </h1>
       <div class="content">
-      <ul>
-	<li><a href=""></a></li>
-      </ul>
+	<ul>
+	  <li> <h3> <a href="https://www.oreilly.com/content/how-to-ship-production-grade-go/">
+		How To Ship Production-Grade Go (published by O'Reilly) </a> </h3>
+	  </li>
+	</ul>
       </div>
-    </div> 
-    </div> <!-- div container -->
-    
-    <div> <!-- footer -->
-      <a href=""><img src=""></img></a>
     </div>
-  </body>
+    <h1> Etc. </h1>
+    <div class="content">
+    </div>
+    </div> 
+</div> <!-- div container -->
+<div class="footer"> <!-- footer -->
+  <p>
+    <a href="https://twitter.com/kavya719"><img src="tweet.png"></img></a>
+    <a href="mailto:kavya@kavyajoshi.me"><img src="mail.png"></img></a>
+  </p>
+</div>  <!-- footer -->
+</body>
 </html>

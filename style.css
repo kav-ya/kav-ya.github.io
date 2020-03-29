@@ -4,17 +4,38 @@ body {
 
 .container {
     display: block;
-    font-family: monospace;
-    color: #444;
     margin: 100px auto;
     max-width: 720px;
-}
-
-h1 {
-
+    font-family: monospace;
+    color: #444;
 }
 
 .content {
     padding-bottom: 50px;
 }
 
+.talkstract{
+    font-size: 14px;
+}
+
+li {
+    padding-bottom: 5px;
+}
+
+.footer {
+    display: block;
+    margin: 100px auto;
+    max-width: 720px;
+    font-family: monospace;
+    font-size: 30px;
+    text-align: center;
+}
+
+h1 {
+
+}
+
+h3 {
+    font-size: 15px;
+    font-weight: normal;
+}
