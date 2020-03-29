@@ -1,0 +1,9 @@
+Hi!
+I'm Kavya. I write software for a living, and am based in San Francisco.
+I've primarily worked on "backend" systems and infrastructure, although I
+recently switched to tinkering (professionally) with embedded systems and applications.
+I currently work at Samsara.
+In addition to building systems, I talk about them at conferences too.
+I sometimes write about software, but admittedly less than I'd like to.
+In my non-programmer life, I climb rocks and read books. I like eating pies too.
+

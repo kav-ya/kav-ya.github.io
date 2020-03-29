@@ -11,11 +11,19 @@ body {
 }
 
 .content {
-    padding-bottom: 50px;
+    padding-bottom: 25px;
+}
+
+.aboutetc{
+    font-size:14px;
 }
 
 .talkstract{
     font-size: 14px;
+}
+
+.emphasis{
+    font-size: 16px;
 }
 
 li {
