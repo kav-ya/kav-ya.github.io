@@ -39,6 +39,14 @@ li {
     text-align: center;
 }
 
+a {
+    color: #bc2419; /*ab2116*/
+}
+
+.a-nocolor {
+    color: #444;
+}
+
 h1 {
 
 }
